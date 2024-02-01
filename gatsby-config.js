@@ -71,7 +71,7 @@ module.exports = {
     experience: [
       {
         name: 'Boston University Japanese Student Association',
-        description: 'President: June 2023 - Present, Secretary: June 2022 - Present, Underclassmen Representative: January 2022 - May 2022',
+        description: 'President: June 2023 - Present, Secretary: June 2022 - May 2023, Underclassmen Representative: January 2022 - May 2022',
         link: 'https://www.instagram.com/thebujsa'
       },
       {
