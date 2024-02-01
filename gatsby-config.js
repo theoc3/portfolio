@@ -7,15 +7,15 @@ module.exports = {
     // Main Site Title
     title: `Theo Chen | Computer Science & Japanese @ BU`,
     // Description that goes under your name in main bio
-    description: `3rd-Year at Boston University studying Computer Science and Japanese. President of the Boston University Japanese Student Association`,
+    description: `President of BUJSA, 3rd-Year at Boston University studying Computer Science and Japanese`,
     // Optional: Twitter account handle
-    author: `@theoc3`,
+    //author: `@theoc3`,
     // Optional: Github account URL
     github: `https://github.com/theoc3`,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/theo-chen-08bb12224/`,
     // Content of the About Me section
-    about: `I'm a 3rd-year at Boston University.`,
+    about: `Hi, I'm Theo, a 3rd-year Majoring in Computer Science and Minoring in Japanese at BU. I'm most experienced in full-stack development, and I'm also interested in the overlap between linguistics and CS. However, I'll always have a soft spot for game development. Check out the links to some of my Projects below!`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
