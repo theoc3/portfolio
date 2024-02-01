@@ -71,17 +71,17 @@ module.exports = {
     experience: [
       {
         name: 'Boston University Japanese Student Association',
-        description: 'President: June 2023 - Present<br>Secretary: June 2022 - Present<br>Underclassmen Representative: January 2022 - May 2022',
+        description: 'President: June 2023 - Present, Secretary: June 2022 - Present, Underclassmen Representative: January 2022 - May 2022',
         link: 'https://www.instagram.com/thebujsa'
       },
       {
         name: 'Timewitch Inc.',
-        description: 'Full-Stack Developer Intern, December 2023 - January 2024',
+        description: 'Full-Stack Developer Intern: December 2023 - January 2024',
         link: 'https://timewitch.jp/',
       },
       {
         name: 'Cardinal Blue Software, Inc.',
-        description: 'Product Operations Intern, June 2017 - July 2017',
+        description: 'Product Operations Intern: June 2017 - July 2017',
         link: 'https://picc.co/',
       },
     ],
