@@ -58,13 +58,13 @@ module.exports = {
         name: 'Rig the Dice',
         description:
           'A 3D Unity game developed in 48 hours for the annual GMTK Game Jam. The theme of “Roll of the Dice” is interpreted as rigging dice so that they have the desired outcome for a basic gambling game.',
-        link: 'https://talcgames.itch.io/rig-the-dice'
+        link: 'https://itch.io/jam/gmtk-jam-2022/rate/1623138'
       },
       {
         name: 'Color Theory',
         description:
           'A 2D Unity game developed in 48 hours for the annual GMTK Game Jam. The theme of “Joined Together” is interpreted as both joining together primary colors to create secondary colors and combining the player with same colored enemies to score.',
-        link: 'https://talcgames.itch.io/color-theory'
+        link: 'https://itch.io/jam/gmtk-2021/rate/1081834'
       }
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
