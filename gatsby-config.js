@@ -40,7 +40,7 @@ module.exports = {
         name: 'Spark Bytes MVP Demo Website',
         description:
           'A MVP website hosting user generated posts for food leftovers at BU events with user authentication via OAuth 2.0 and Prisma interactions with a PostgreSQL database using Express.js API access. Worked in a simulated scrum team of 4, with 3 sprints total.',
-        link: 'https://spark-bytes-project-team-5-demo.vercel.app/'
+        link: 'https://spark-bytes-demo.vercel.app/'
       },
       {
         name: 'Space News Website',
