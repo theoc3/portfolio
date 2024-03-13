@@ -19,6 +19,12 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
+        name: 'AI vs Human Text Classifier',
+        description:
+          'A Machine Learning Model that classifies whether or not text is AI generated or written by a person.',
+        link: 'https://github.com/theoc3/cs365-proj',
+      },    
+      {
         name: 'Japanese Handwriting Rater',
         description:
           'A script that rates Japanese kana handwriting using EasyOCR library and a custom machine learning model trained on generated handwriting images.',
