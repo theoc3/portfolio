@@ -5,14 +5,23 @@ const classes = {
   wrapper: 'mb-6',
   name: 'font-semibold text-gray-900 pb-1',
   description: 'text-md text-gray-600 font-light',
+  arrow: 'inline-block transform transition-transform duration-200', // Add a class for the arrow
 };
 
 const SummaryItem = ({ name, description, link = false, internal = false }) => {
   let linkContent;
   if (internal) {
-    linkContent = <Link to={link}>{name}</Link>;
+    linkContent = (
+      <Link to={link}>
+        {name} <span className={classes.arrow}>↗</span>
+      </Link>
+    );
   } else {
-    linkContent = <a href={link} target="_blank" rel="noopener noreferrer">{name}</a>;
+    linkContent = (
+      <a href={link} target="_blank" rel="noopener noreferrer">
+        {name} <span className={classes.arrow}>↗</span>
+      </a>
+    );
   }
 
   return (
