@@ -19,11 +19,7 @@ module.exports = {
     // Content of the About Me section
     about: `Hi, I'm Theo, a 3rd-year Majoring in Computer Science and Minoring in Japanese at Boston University. I'm most experienced in full-stack development, data science, and machine learning. 
 
-    I'm currently seeking Summer 2024 internship roles in full-stack software engineering, data analysis, machine learning, or game development!
-    
-    My favorite niche is the overlap between linguistics and CS, i.e. the field of natural language processing. However, I'll always have a soft spot for game development. 
-    
-    Check out my projects and experience below!`,
+    I'm currently seeking Summer 2024 internship roles in full-stack software engineering, data analysis, machine learning, or game development!`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
