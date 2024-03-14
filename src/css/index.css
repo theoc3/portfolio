@@ -250,6 +250,10 @@ pre[class*='language-'] {
   text-shadow: none !important;
 }
 
+.arrow {
+  transition: transform 0.3s ease;
+}
+
 .arrow:hover {
-  transform: translateX(5px);
+  transform: translate(5px, -5px);
 }

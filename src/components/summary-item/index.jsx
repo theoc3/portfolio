@@ -13,13 +13,13 @@ const SummaryItem = ({ name, description, link = false, internal = false }) => {
   if (internal) {
     linkContent = (
       <Link to={link}>
-        {name} <span className={classes.arrow}>↗</span>
+        {name} <span className={`${classes.arrow} arrow`}>↗</span>
       </Link>
     );
   } else {
     linkContent = (
       <a href={link} target="_blank" rel="noopener noreferrer">
-        {name} <span className={classes.arrow}>↗</span>
+        {name} <span className={`${classes.arrow} arrow`}>↗</span>
       </a>
     );
   }
