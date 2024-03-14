@@ -51,11 +51,13 @@ export const pageQuery = graphql`
           name
           description
           link
+          techStack
         }
         experience {
           name
           description
           link
+          techStack
         }
         skills {
           name
