@@ -15,6 +15,7 @@ const SectionProjects = ({ projects }) => {
           description={project.description}
           link={project.link}
           techStack={project.techStack}
+          location={project.location}
         />
       ))}
     </Section>
