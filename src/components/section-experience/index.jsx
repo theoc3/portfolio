@@ -14,7 +14,7 @@ const SectionExperience = ({ experience }) => {
           name={item.name}
           description={item.description}
           link={item.link}
-          techStack={project.techStack}
+          techStack={item.techStack}
         />
       ))}
     </Section>
