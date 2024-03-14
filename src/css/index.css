@@ -259,12 +259,8 @@ pre[class*='language-'] {
 }
 
 .tech-item {
-  display: inline-block;
-  background-color: #f8f9fa;
-  border-radius: 12px;
-  padding: 5px 10px;
-  margin: 2px;
-  font-size: 0.8em;
+  display: inline;
+  font-size: 1em;
   font-weight: 500;
   color: #333;
 }

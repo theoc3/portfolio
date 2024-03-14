@@ -25,9 +25,9 @@ const SummaryItem = ({ name, description, link = false, internal = false, techSt
     );
   }
 
-  const techStackItems = techStack.split(',').map((tech, index) => (
+  const techStackItems = techStack ? techStack.split(',').map((tech, index) => (
     <span key={index} className="tech-item">{tech.trim()}</span>
-  ));
+  )) : null;
 
   return (
     <div className={classes.wrapper}>
@@ -38,10 +38,8 @@ const SummaryItem = ({ name, description, link = false, internal = false, techSt
       >
         {link ? linkContent : name}
       </h3>
-      <div>{techStackItems}</div>
+      {techStackItems && <div>{techStackItems}</div>}
       <p className={classes.description}>{description}</p>
     </div>
   );
 };
-
-export default SummaryItem;
