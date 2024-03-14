@@ -14,8 +14,16 @@ module.exports = {
     github: `https://github.com/theoc3`,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/theo-chen-08bb12224/`,
+    // Optional: itch.io account URL
+    itchio: `https://itch.io/profile/talcgames`,
     // Content of the About Me section
-    about: `Hi, I'm Theo, a 3rd-year Majoring in Computer Science and Minoring in Japanese at BU. I'm most experienced in full-stack development, and I'm also interested in the overlap between linguistics and CS. However, I'll always have a soft spot for game development. Check out the links to some of my Projects below!`,
+    about: `Hi, I'm Theo, a 3rd-year Majoring in Computer Science and Minoring in Japanese at Boston University. I'm most experienced in full-stack development, data science, and machine learning. 
+
+    I'm currently seeking Summer 2024 internship roles in full-stack software engineering, data analysis, machine learning, or game development!
+    
+    My favorite niche is the overlap between linguistics and CS, i.e. the field of natural language processing. However, I'll always have a soft spot for game development. 
+    
+    Check out my projects and experience below!`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
