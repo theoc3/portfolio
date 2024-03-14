@@ -23,55 +23,63 @@ module.exports = {
         description:
           'A Machine Learning Model that classifies whether or not text is AI generated or written by a person.',
         link: 'https://github.com/theoc3/cs365-proj',
-        techStack: 'Python, NumPy, skikit-learn'
+        techStack: 'Python, PyTorch, Tensorflow, scikit-learn, HuggingFace Transformers, NumPy, pandas, Matplotlib, GitHub'
       },    
       {
         name: 'Japanese Handwriting Rater',
         description:
           'A script that rates Japanese kana handwriting using EasyOCR library and a custom machine learning model trained on generated handwriting images.',
         link: 'https://github.com/theoc3/handwriting-rating',
+        techStack: 'Python, PyTorch, NumPy, pandas, scikit-learn, Matplotlib, EasyOCR, OpenCV, GitHub'
       },
       {
         name: 'Kyoudai Matching Program',
         description:
           'A program that extracts csv files with a Python script to generate an input for a C++ program that uses a bipartite graph and a max-cost min-flow algorithm to match “bigs” and “littles" for the BUJSA Kyoudai program.',
         link: 'https://github.com/schuyler1007/bujsa',
+        techStack: 'Python, C++, NumPy, GitHub'
       },
       {
         name: 'Stationery Blog',
         description:
           'A blog created with the Next.js framework displaying blog posts and reviews of stationery written in Markdown.',
         link: 'https://theosbungu.com',
+        techStack: 'React, Next.js, JavaScript, Tailwind CSS, Markdown, HTML, Vercel, GitHub'
       },
       {
         name: 'Spark Bytes MVP Demo Website',
         description:
           'A MVP website hosting user generated posts for food leftovers at BU events with user authentication via OAuth 2.0 and Prisma interactions with a PostgreSQL database using Express.js API access. Worked in a simulated scrum team of 4, with 3 sprints total.',
-        link: 'https://spark-bytes-demo.vercel.app/'
+        link: 'https://spark-bytes-demo.vercel.app/',
+        techStack: 'React, Express.js, Next.js, TypeScript, Tailwind CSS, OAuth 2.0, Prisma, PostgreSQL, Vercel, Railway, GitHub'
       },
       {
         name: 'Space News Website',
         description:
           'A website that displays the latest news about space using React and a public Space News API.',
-        link: 'https://cs392-space-news-project.vercel.app/'
+        link: 'https://cs392-space-news-project.vercel.app/',
+        techStack: 'React, JavaScript, Tailwind CSS, HTML, Vercel, GitHub'
       },
       {
         name: 'Japanese Study Program',
         description:
           'A Python program for memorizing the Japanese writing systems of Hiragana and Katakana that adjusts its difficulty based on the user’s familiarity with each character as they answer correctly or incorrectly, keeping track of response time and accuracy.',
-        link: 'https://github.com/theoc3/JapanesePractice'
+        link: 'https://github.com/theoc3/JapanesePractice',
+        techStack: 'Python, NumPy, GitHub'
       },
       {
         name: 'Rig the Dice',
         description:
           'A 3D Unity game developed in 48 hours for the annual GMTK Game Jam. The theme of “Roll of the Dice” is interpreted as rigging dice so that they have the desired outcome for a basic gambling game.',
-        link: 'https://itch.io/jam/gmtk-jam-2022/rate/1623138'
+        link: 'https://itch.io/jam/gmtk-jam-2022/rate/1623138',
+        techStack: 'Unity 3D, C#, WebGL, Blender, Adobe Photoshop, Adobe Illustrator'
       },
       {
         name: 'Color Theory',
         description:
           'A 2D Unity game developed in 48 hours for the annual GMTK Game Jam. The theme of “Joined Together” is interpreted as both joining together primary colors to create secondary colors and combining the player with same colored enemies to score.',
-        link: 'https://itch.io/jam/gmtk-2021/rate/1081834'
+        link: 'https://itch.io/jam/gmtk-2021/rate/1081834',
+        techStack: 'Unity 2D, C#, WebGL, Blender, Adobe Photoshop, Adobe Illustrator'
       }
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
@@ -83,13 +91,15 @@ module.exports = {
       },
       {
         name: 'Timewitch Inc.',
-        description: 'Full-Stack Developer Intern: December 2023 - January 2024',
+        description: 'Software Engineering Intern: December 2023 - January 2024',
         link: 'https://timewitch.jp/',
+        techStack: 'React, Node.js, Express.js, TypeScript, Tailwind CSS, HTMl, SQL, Prisma, Redis, Zod, Microsoft Azure, GitHub'
       },
       {
         name: 'Cardinal Blue Software, Inc.',
         description: 'Product Operations Intern: June 2017 - July 2017',
         link: 'https://picc.co/',
+        techStack: 'Python, Adobe Photoshop, Adobe Illustrator, Adobe Premiere Pro, Microsoft Excel'
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.

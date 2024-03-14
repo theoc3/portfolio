@@ -5,8 +5,8 @@ const classes = {
   wrapper: 'mb-6',
   name: 'font-semibold text-gray-900 pb-1',
   description: 'text-md text-gray-600 font-light',
-  techStack: 'text-sm text-gray-500 font-light', // Add a class for the tech stack
-  arrow: 'inline-block transform transition-transform duration-200', // Add a class for the arrow
+  techStack: 'text-sm text-gray-500 font-light bg-gray-200 rounded px-3', 
+  arrow: 'inline-block transform transition-transform duration-200', 
 };
 
 const SummaryItem = ({ name, description, techStack = '', link = false, internal = false }) => {
@@ -34,7 +34,13 @@ const SummaryItem = ({ name, description, techStack = '', link = false, internal
       >
         {link ? linkContent : name}
       </h3>
-      {techStack && <p className={classes.techStack}>{techStack}</p>}
+      {techStack && (
+        <div className="flex flex-wrap gap-2">
+          {techStack.split(',').map((tech, index) => (
+            <span key={index} className={classes.techStack}>{tech.trim()}</span>
+          ))}
+        </div>
+      )}
       <p className={classes.description}>{description}</p>
     </div>
   );
