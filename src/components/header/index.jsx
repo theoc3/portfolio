@@ -54,6 +54,8 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               <a
                 className={classes.link}
                 href={itchio}
+                target="_blank" 
+                rel="noopener noreferrer"
               >
                 itch.io
               </a>
