@@ -23,7 +23,6 @@ module.exports = {
         description:
           'A Machine Learning Model that classifies whether or not text is AI generated or written by a person.',
         link: 'https://github.com/theoc3/cs365-proj',
-        tech: 'Python, scikit-learn'
       },    
       {
         name: 'Japanese Handwriting Rater',

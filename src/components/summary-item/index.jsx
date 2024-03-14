@@ -5,11 +5,10 @@ const classes = {
   wrapper: 'mb-6',
   name: 'font-semibold text-gray-900 pb-1',
   description: 'text-md text-gray-600 font-light',
-  arrow: 'inline-block transform transition-transform duration-200', 
-  tech: 'inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2', 
+  arrow: 'inline-block transform transition-transform duration-200', // Add a class for the arrow
 };
 
-const SummaryItem = ({ name, description, link = false, internal = false, techStack = '' }) => {
+const SummaryItem = ({ name, description, link = false, internal = false }) => {
   let linkContent;
   if (internal) {
     linkContent = (
@@ -25,10 +24,6 @@ const SummaryItem = ({ name, description, link = false, internal = false, techSt
     );
   }
 
-  const techStackItems = techStack.split(',').map((tech, index) => (
-    <span key={index} className={classes.tech}>{tech.trim()}</span>
-  ));
-
   return (
     <div className={classes.wrapper}>
       <h3
@@ -38,7 +33,6 @@ const SummaryItem = ({ name, description, link = false, internal = false, techSt
       >
         {link ? linkContent : name}
       </h3>
-      <div>{techStackItems}</div>
       <p className={classes.description}>{description}</p>
     </div>
   );
