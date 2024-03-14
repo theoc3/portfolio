@@ -26,7 +26,7 @@ const SummaryItem = ({ name, description, link = false, internal = false, techSt
   }
 
   const techStackItems = techStack.split(',').map((tech, index) => (
-    <span key={index} className="tech-item">{tech.trim()}</span>
+    <span key={index} className={classes.tech}>{tech.trim()}</span>
   ));
 
   return (
