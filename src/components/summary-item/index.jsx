@@ -4,8 +4,8 @@ import React from 'react';
 const classes = {
   wrapper: 'mb-6',
   name: 'font-semibold text-gray-900 pb-1',
-  location: 'text-sm text-gray-500', // Add a class for the location
-  description: 'text-md text-gray-600 font-light',
+  location: 'text-sm text-gray-500',
+  description: 'text-md text-gray-600 font-light pb-1',
   techStack: 'text-sm text-gray-500 font-light bg-gray-200 rounded px-3', 
   arrow: 'inline-block transform transition-transform duration-200', 
 };

@@ -87,19 +87,22 @@ module.exports = {
       {
         name: 'Boston University Japanese Student Association',
         description: 'President: June 2023 - Present, Secretary: June 2022 - May 2023, Underclassmen Representative: January 2022 - May 2022',
-        link: 'https://www.instagram.com/thebujsa'
+        link: 'https://www.instagram.com/thebujsa',
+        location: 'Boston, MA, U.S.A. (On-Site)'
       },
       {
         name: 'Timewitch Inc.',
         description: 'Software Engineering Intern: December 2023 - January 2024',
         link: 'https://timewitch.jp/',
-        techStack: 'React, Node.js, Express.js, TypeScript, Tailwind CSS, HTMl, SQL, Prisma, Redis, Zod, Microsoft Azure, GitHub'
+        techStack: 'React, Node.js, Express.js, TypeScript, Tailwind CSS, HTMl, SQL, Prisma, Redis, Zod, Microsoft Azure, GitHub',
+        location: 'Tokyo, Japan (Remote)'
       },
       {
         name: 'Cardinal Blue Software, Inc.',
         description: 'Product Operations Intern: June 2017 - July 2017',
         link: 'https://picc.co/',
-        techStack: 'Python, Adobe Photoshop, Adobe Illustrator, Adobe Premiere Pro, Microsoft Excel'
+        techStack: 'Python, Adobe Photoshop, Adobe Illustrator, Adobe Premiere Pro, Microsoft Excel',
+        location: 'Taipei, Taiwan (On-Site)'
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
