@@ -12,13 +12,13 @@ const SummaryItem = ({ name, description, link = false, internal = false }) => {
   let linkContent;
   if (internal) {
     linkContent = (
-      <Link to={link}>
+      <Link to={link} className="hover-arrow">
         {name} <span className={`${classes.arrow} arrow`}>↗</span>
       </Link>
     );
   } else {
     linkContent = (
-      <a href={link} target="_blank" rel="noopener noreferrer">
+      <a href={link} target="_blank" rel="noopener noreferrer" className="hover-arrow">
         {name} <span className={`${classes.arrow} arrow`}>↗</span>
       </a>
     );

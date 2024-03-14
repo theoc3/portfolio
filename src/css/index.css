@@ -254,6 +254,7 @@ pre[class*='language-'] {
   transition: transform 0.3s ease;
 }
 
-.arrow:hover {
+.hover-arrow:hover .arrow {
   transform: translate(5px, -5px);
 }
+
