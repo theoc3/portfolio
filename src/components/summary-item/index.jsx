@@ -6,7 +6,7 @@ const classes = {
   name: 'font-semibold text-gray-900 pb-1',
   description: 'text-md text-gray-600 font-light',
   arrow: 'inline-block transform transition-transform duration-200', 
-  tech: 'inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2', 
+  tech: 'inline-block text-sm font-semibold text-gray-700 mr-2 mb-2', 
 };
 
 const SummaryItem = ({ name, description, link = false, internal = false, techStack = '' }) => {
