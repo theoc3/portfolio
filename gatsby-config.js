@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Theo Chen | Computer Science & Japanese @ BU`,
     // Description that goes under your name in main bio
-    description: `President of BUJSA, 3rd-Year at Boston University studying Computer Science and Japanese`,
+    description: `Client Engineering Intern @ GitStart (YC19) | Former President of BUJSA | 4th-Year @ Boston University studying Computer Science and Japanese`,
     // Optional: Twitter account handle
     //author: `@theoc3`,
     // Optional: Github account URL
@@ -17,9 +17,9 @@ module.exports = {
     // Optional: itch.io account URL
     itchio: `https://itch.io/profile/talcgames`,
     // Content of the About Me section
-    about: `Hi, I'm Theo, a 3rd-year Majoring in Computer Science and Minoring in Japanese at Boston University. I'm most experienced in full-stack development, data science, and machine learning. 
-
-    I'm currently seeking Summer 2024 internship roles in full-stack software engineering, data analysis, machine learning, or game development!`,
+    about: `Hi, I'm Theo, a 4th-year Majoring in Computer Science and Minoring in Japanese at Boston University. I'm most experienced in full-stack development, data science, and machine learning. 
+    I'm currently a Client Engineering Intern at GitStart (YC19).
+    `,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -89,8 +89,14 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
+        name: 'GitStart (YC19)',
+        description: 'Client Engineering Intern',
+        link: 'https://gitstart.com/',
+        location: 'Boston, MA, U.S.A. (Remote)'
+      },
+      {
         name: 'Boston University Japanese Student Association',
-        description: 'President: June 2023 - Present, Secretary: June 2022 - May 2023, Underclassmen Representative: January 2022 - May 2022',
+        description: 'Senior Advisor: June 2024 - Present, President: June 2023 - May 2024, Secretary: June 2022 - May 2023, Underclassmen Representative: January 2022 - May 2022',
         link: 'https://www.instagram.com/thebujsa',
         location: 'Boston, MA, U.S.A. (On-Site)'
       },
