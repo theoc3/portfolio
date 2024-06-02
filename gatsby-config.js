@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Theo Chen | Computer Science & Japanese @ BU`,
     // Description that goes under your name in main bio
-    description: `Client Engineering Intern @ GitStart (YC19) | Former President of BUJSA | 4th-Year @ Boston University studying Computer Science and Japanese`,
+    description: `Client Engineering Intern @ GitStart (YC19) | 4th Year at Boston University`,
     // Optional: Twitter account handle
     //author: `@theoc3`,
     // Optional: Github account URL
@@ -17,8 +17,8 @@ module.exports = {
     // Optional: itch.io account URL
     itchio: `https://itch.io/profile/talcgames`,
     // Content of the About Me section
-    about: `Hi, I'm Theo, a 4th-year Majoring in Computer Science and Minoring in Japanese at Boston University. I'm most experienced in full-stack development, data science, and machine learning. 
-    I'm currently a Client Engineering Intern at GitStart (YC19).
+    about: `Hi, I'm Theo, a 4th-year Majoring in Computer Science and Minoring in Japanese at Boston University. I'm most experienced in full-stack development, data science, and machine learning.
+    I was the former President of the Boston University Japanese Student Association, and I'm currently a Client Engineering Intern at GitStart (YC19).
     `,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
