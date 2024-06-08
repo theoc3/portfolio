@@ -90,13 +90,14 @@ module.exports = {
     experience: [
       {
         name: 'GitStart (YC19)',
-        description: 'Client Engineering Intern',
+        description: 'Client Engineering Intern: May 2024 - Current',
         link: 'https://gitstart.com/',
-        location: 'Boston, MA, U.S.A. (Remote)'
+        techStack: 'React, Node.js, TypeScript, Tailwind CSS, HTML, SQL, GitHub, Docker ',
+        location: 'San Francisco, CA, U.S.A. (Remote)'
       },
       {
         name: 'Boston University Japanese Student Association',
-        description: 'Senior Advisor: June 2024 - Present, President: June 2023 - May 2024, Secretary: June 2022 - May 2023, Underclassmen Representative: January 2022 - May 2022',
+        description: 'Senior Advisor: May 2024 - Current | (President 23 - 24, Secretary 22 - 23)',
         link: 'https://www.instagram.com/thebujsa',
         location: 'Boston, MA, U.S.A. (On-Site)'
       },
@@ -120,7 +121,7 @@ module.exports = {
       {
         name: 'Programming Languages',
         description:
-          'Python, C, C#, C++, Java, Git, Assembly, Bash, HTML, CSS, Javascript, Typescript, SQL',
+          'Python, HTML, CSS, Javascript, Typescript, SQL, C, C#, C++, Java, Git, Assembly, Bash',
       },
       {
         name: 'Web Development',
