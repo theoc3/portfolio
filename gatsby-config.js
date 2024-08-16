@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Theo Chen | Computer Science & Japanese @ BU`,
     // Description that goes under your name in main bio
-    description: `Studying Abroad @ Doshisha University in Kyoto, Japan | 4th Year at Boston University`,
+    description: `Studying Abroad w/ Columbia University's KCJS @ Doshisha University in Kyoto, Japan | 4th Year at Boston University`,
     // Optional: Twitter account handle
     //author: `@theoc3`,
     // Optional: Github account URL
@@ -18,7 +18,7 @@ module.exports = {
     itchio: `https://itch.io/profile/talcgames`,
     // Content of the About Me section
     about: `Hi, I'm Theo, a 4th-year Majoring in Computer Science and Minoring in Japanese at Boston University. I'm most experienced in full-stack development, data science, and machine learning.
-    I was the former President of the Boston University Japanese Student Association, and I'm currently studying abroad in Kyoto, Japan at Doshisha University.
+    I was the former President of the Boston University Japanese Student Association, and I'm currently studying abroad in Kyoto, Japan at Doshisha University with Columbia University's KCJS Program.
     `,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
