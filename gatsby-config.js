@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Theo Chen | Computer Science & Japanese @ BU`,
     // Description that goes under your name in main bio
-    description: `Client Engineering Intern @ GitStart (YC19) | 4th Year at Boston University`,
+    description: `Studying Abroad @ Doshisha University in Kyoto, Japan | 4th Year at Boston University`,
     // Optional: Twitter account handle
     //author: `@theoc3`,
     // Optional: Github account URL
@@ -18,7 +18,7 @@ module.exports = {
     itchio: `https://itch.io/profile/talcgames`,
     // Content of the About Me section
     about: `Hi, I'm Theo, a 4th-year Majoring in Computer Science and Minoring in Japanese at Boston University. I'm most experienced in full-stack development, data science, and machine learning.
-    I was the former President of the Boston University Japanese Student Association, and I'm currently a Client Engineering Intern at GitStart (YC19).
+    I was the former President of the Boston University Japanese Student Association, and I'm currently studying abroad in Kyoto, Japan at Doshisha University.
     `,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
@@ -90,9 +90,9 @@ module.exports = {
     experience: [
       {
         name: 'GitStart (YC19)',
-        description: 'Client Engineering Intern: May 2024 - Current',
+        description: 'Software Engineering Intern: May 2024 - August 2024',
         link: 'https://gitstart.com/',
-        techStack: 'React, Node.js, TypeScript, Tailwind CSS, HTML, SQL, GitHub, Docker ',
+        techStack: 'React, Node.js, TypeScript, GraphQL, Elixir, Tailwind CSS, HTML, SQL, GitHub, Docker ',
         location: 'San Francisco, CA, U.S.A. (Remote)'
       },
       {
@@ -125,7 +125,7 @@ module.exports = {
       },
       {
         name: 'Web Development',
-        description: 'React, Node.js, Next.js, Express.js, Prisma, Redis, Zod, Tailwind, OAuth 2.0, PostgreSQL, Vercel, Railway, Azure',
+        description: 'React, Node.js, Next.js, Express.js, Prisma, Redis, Zod, GraphQL, Elixir, Tailwind, OAuth 2.0, PostgreSQL, Vercel, Railway, Azure',
       },
       {
         name: 'Machine Learning/Data Science',
