@@ -72,6 +72,13 @@ module.exports = {
         techStack: 'Python, NumPy, GitHub'
       },
       {
+        name: 'Scale to Shoot',
+        description:
+          'A 2D Unity game developed in 24 hours for the annual GMTK Game Jam. The theme of “Scale" is interpreted as shooting enemies of varying sizes with shots that need to match the size of the enemies.',
+        link: 'https://itch.io/jam/gmtk-2024/rate/2903129',
+        techStack: 'Unity 2D, C#, WebGL, Adobe Photoshop, Adobe Illustrator'
+      },
+      {
         name: 'Rig the Dice',
         description:
           'A 3D Unity game developed in 48 hours for the annual GMTK Game Jam. The theme of “Roll of the Dice” is interpreted as rigging dice so that they have the desired outcome for a basic gambling game.',
@@ -83,7 +90,7 @@ module.exports = {
         description:
           'A 2D Unity game developed in 48 hours for the annual GMTK Game Jam. The theme of “Joined Together” is interpreted as both joining together primary colors to create secondary colors and combining the player with same colored enemies to score.',
         link: 'https://itch.io/jam/gmtk-2021/rate/1081834',
-        techStack: 'Unity 2D, C#, WebGL, Blender, Adobe Photoshop, Adobe Illustrator'
+        techStack: 'Unity 2D, C#, WebGL, Adobe Photoshop, Adobe Illustrator'
       }
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
