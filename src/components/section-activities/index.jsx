@@ -14,7 +14,6 @@ const SectionActivities = ({ activities }) => {
           name={activity.name}
           description={activity.description}
           link={activity.link}
-          techStack={activity.techStack}
           location={activity.location}
         />
       ))}

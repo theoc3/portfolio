@@ -71,7 +71,6 @@ export const pageQuery = graphql`
           name
           description
           link
-          techStack
           location
         }
         skills {
