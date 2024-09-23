@@ -16,6 +16,7 @@ const Index = ({ data }) => {
   const projects = get(data, 'site.siteMetadata.projects', false);
   const posts = data.allMarkdownRemark.edges;
   const experience = get(data, 'site.siteMetadata.experience', false);
+  const activities = get(data, 'site.siteMetadata.activities', false);
   const skills = get(data, 'site.siteMetadata.skills', false);
   const noBlog = !posts || !posts.length;
 
@@ -28,6 +29,9 @@ const Index = ({ data }) => {
 
       {experience && experience.length && (
         <SectionExperience experience={experience} />
+      )}
+      {activities && activities.length && (
+        <SectionActivities activities={activities} />
       )}
       {skills && skills.length && <SectionSkills skills={skills} />}
     </Layout>
