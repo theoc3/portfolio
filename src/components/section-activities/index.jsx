@@ -22,4 +22,4 @@ const SectionActivities = ({ activities }) => {
   );
 };
 
-export default ActivityProjects;
+export default SectionActivities;
