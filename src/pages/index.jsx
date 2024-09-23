@@ -62,6 +62,13 @@ export const pageQuery = graphql`
           techStack
           location
         }
+        activities {
+          name
+          description
+          link
+          techStack
+          location
+        }
         skills {
           name
           description

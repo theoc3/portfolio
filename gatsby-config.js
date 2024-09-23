@@ -103,12 +103,6 @@ module.exports = {
         location: 'San Francisco, CA, U.S.A. (Remote)'
       },
       {
-        name: 'Boston University Japanese Student Association',
-        description: 'Senior Advisor: May 2024 - Current | (President 23 - 24, Secretary 22 - 23)',
-        link: 'https://www.instagram.com/thebujsa',
-        location: 'Boston, MA, U.S.A. (On-Site)'
-      },
-      {
         name: 'Timewitch Inc.',
         description: 'Software Engineering Intern: December 2023 - January 2024',
         link: 'https://timewitch.jp/',
@@ -122,6 +116,14 @@ module.exports = {
         techStack: 'Python, Adobe Photoshop, Adobe Illustrator, Adobe Premiere Pro, Microsoft Excel',
         location: 'Taipei, Taiwan (On-Site)'
       },
+    ],
+    activities: [
+      {
+        name: 'Boston University Japanese Student Association',
+        description: 'Senior Advisor: May 2024 - Current | (President 23 - 24, Secretary 22 - 23)',
+        link: 'https://www.instagram.com/thebujsa',
+        location: 'Boston, MA, U.S.A. (On-Site)'
+      }
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
