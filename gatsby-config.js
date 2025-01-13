@@ -5,7 +5,7 @@ module.exports = {
     // Your Name
     name: 'Theo Chen',
     // Main Site Title
-    title: `Theo Chen | Computer Science & Japanese @ BU`,
+    title: `Theo Chen | Research Assitant @ BU SLA, Computer Science & Japanese`,
     // Description that goes under your name in main bio
     description: `4th Year at Boston University`,
     // Optional: Twitter account handle
@@ -18,7 +18,7 @@ module.exports = {
     itchio: `https://itch.io/profile/talcgames`,
     // Content of the About Me section
     about: `Hi, I'm Theo, a 4th-year Majoring in Computer Science and Minoring in Japanese at Boston University. I'm most experienced in full-stack development, and I'm passionate about applying technology to language learning.
-    I was the former President of the Boston University Japanese Student Association, and recently studying abroad in Kyoto, Japan at Doshisha University with Columbia University's KCJS Program.
+    I'm currently a helping with research on the application of technology like large language models to assist language learning as a Research Assistant at the Boston University Second Language Acquisition Lab. I was the former President of the Boston University Japanese Student Association, and recently studying abroad in Kyoto, Japan at Doshisha University with Columbia University's KCJS Program.
     `,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
@@ -96,6 +96,13 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
+        name: 'Boston University Second Language Acquisition Lab',
+        description: 'Research Assistant: January 2025 - Current',
+        link: 'https://www.bu.edu/wheelock/profile/kathy-minhye-kim/',
+        techStack: 'Gorilla, TypeScript, R',
+        location: 'Boston, MA, U.S.A. (On-Site)'
+      },
+      {
         name: 'GitStart (YC19)',
         description: 'Software Engineering Intern: May 2024 - August 2024',
         link: 'https://gitstart.com/',
@@ -130,7 +137,7 @@ module.exports = {
       {
         name: 'Programming Languages',
         description:
-          'Python, HTML, CSS, Javascript, Typescript, SQL, C, C#, C++, Java, Git, Assembly, Bash',
+          'Python, HTML, CSS, Javascript, Typescript, SQL, R, C, C#, C++, Java, Git, Assembly, Bash',
       },
       {
         name: 'Web Development',
