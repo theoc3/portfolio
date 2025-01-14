@@ -17,9 +17,9 @@ module.exports = {
     // Optional: itch.io account URL
     itchio: `https://itch.io/profile/talcgames`,
     // Content of the About Me section
-    about: `Hi! I'm Theo, and I'm passionate about how we can use technology to enhance our ability to learn languages! \n \n 
+    about: `Hi! I'm Theo, and I'm passionate about how we can use technology to enhance our ability to learn languages! <br/><br/>
     
-    I'm currently rearching the application of technology like large language models to assist language learning as a Research Assistant at the Boston University Second Language Acquisition Lab. \n \n 
+    I'm currently rearching the application of technology like large language models to assist language learning as a Research Assistant at the Boston University Second Language Acquisition Lab. <br/><br/>
     
     I was the former President of the Boston University Japanese Student Association, and recently studying abroad in Kyoto, Japan at Doshisha University with Columbia University's KCJS Program.
     `,
