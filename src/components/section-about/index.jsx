@@ -7,7 +7,7 @@ const SectionAbout = ({ about }) => {
     <Section title="About Me">
       <div className="mb-6">
         {about.split('<br/>').map((paragraph, index) => (
-          <p key={index}>{paragraph}</p>
+          <p key={index} className="mb-4">{paragraph}</p>
         ))}
       </div>
     </Section>
