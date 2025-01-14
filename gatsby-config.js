@@ -144,7 +144,7 @@ module.exports = {
       },
       {
         name: 'Web Development',
-        description: 'React, Node.js, Next.js, Express.js, Prisma, Redis, Zod, GraphQL, Elixir, Tailwind, OAuth 2.0, PostgreSQL, Vercel, Railway, Azure',
+        description: 'React, Node.js, Next.js, Express.js, Prisma, Redis, MongoDB, Zod, GraphQL, Elixir, Tailwind, OAuth 2.0, PostgreSQL, Vercel, Railway, Azure',
       },
       {
         name: 'Machine Learning/Data Science',
