@@ -21,7 +21,7 @@ module.exports = {
     
     I'm currently rearching the application of technology like large language models to assist language learning as a Research Assistant at the Boston University Second Language Acquisition Lab. <br/>
     
-    I was the former President of the Boston University Japanese Student Association, and recently studying abroad in Kyoto, Japan at Doshisha University with Columbia University's KCJS Program.
+    I was the former President of the Boston University Japanese Student Association, and recently studied abroad in Kyoto, Japan at Doshisha University with Columbia University's KCJS Program.
     `,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
