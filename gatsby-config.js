@@ -26,25 +26,32 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
+        name: 'Japanese Verb Classifier',
+        description:
+          'A script and model that classifies the verbs in Japanese sentences by their tense/voice',
+        link: 'https://github.com/theoc3/jp-verb-classifier',
+        techStack: 'Python, PyTorch, NumPy, pandas, spacy, MeCab, GitHub'
+      },
+      {
         name: 'AI vs Human Text Classifier',
         description:
-          'A Machine Learning Model that classifies whether or not text is AI generated or written by a person.',
+          'A model that classifies whether or not text is AI generated or written by a person.',
         link: 'https://github.com/theoc3/cs365-proj',
         techStack: 'Python, PyTorch, Tensorflow, scikit-learn, HuggingFace Transformers, NumPy, pandas, Matplotlib, GitHub'
-      },    
+      },  
+      {
+        name: 'Kyoudai Matching Program',
+        description:
+          'A website that uses a simple React front-end and Python back-end that extracts data from csv files, using a bipartite graph and a max-cost min-flow algorithm to match “bigs” and “littles" for the BUJSA Kyoudai program.',
+        link: 'https://github.com/schuyler1007/bujsa',
+        techStack: 'Python, C++, NumPy, GitHub'
+      },  
       {
         name: 'Japanese Handwriting Rater',
         description:
           'A script that rates Japanese kana handwriting using EasyOCR library and a custom machine learning model trained on generated handwriting images.',
         link: 'https://github.com/theoc3/handwriting-rating',
         techStack: 'Python, PyTorch, NumPy, pandas, scikit-learn, Matplotlib, EasyOCR, OpenCV, GitHub'
-      },
-      {
-        name: 'Kyoudai Matching Program',
-        description:
-          'A program that extracts csv files with a Python script to generate an input for a C++ program that uses a bipartite graph and a max-cost min-flow algorithm to match “bigs” and “littles" for the BUJSA Kyoudai program.',
-        link: 'https://github.com/schuyler1007/bujsa',
-        techStack: 'Python, C++, NumPy, GitHub'
       },
       {
         name: 'Stationery Blog',
