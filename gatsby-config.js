@@ -28,7 +28,7 @@ module.exports = {
       {
         name: 'Japanese Verb Classifier',
         description:
-          'A script and model that classifies the verbs in Japanese sentences by their tense/voice',
+          'A BiLSTM model that classifies the verbs in Japanese sentences by their tense/voice',
         link: 'https://github.com/theoc3/jp-verb-classifier',
         techStack: 'Python, PyTorch, NumPy, pandas, spacy, MeCab, GitHub'
       },
