@@ -5,9 +5,9 @@ module.exports = {
     // Your Name
     name: 'Theo Chen',
     // Main Site Title
-    title: `Theo Chen | Research Assistant @ BU SLA, Computer Science & Japanese`,
+    title: `Theo Chen | Recent BU Graduate Computer Science & Japanese`,
     // Description that goes under your name in main bio
-    description: `Boston University Senior Studying Computer Science & Japanese`,
+    description: `Recent Boston University Graduate | Computer Science & Japanese`,
     // Optional: Twitter account handle
     //author: `@theoc3`,
     // Optional: Github account URL
@@ -18,8 +18,8 @@ module.exports = {
     itchio: `https://itch.io/profile/talcgames`,
     // Content of the About Me section
     about: `Hi! I'm Theo, and I'm passionate about how we can use technology to enhance our ability to learn languages! <br/>
-    
-    I'm currently rearching the application of technology like large language models to assist language learning as a Research Assistant at the Boston University Second Language Acquisition Lab. <br/>
+
+    I've recently wrapped up a final project on using a simple neural network to classify Japanese verbs' tense and voice!<br/>
     
     I was the former President of the Boston University Japanese Student Association, and recently studied abroad in Kyoto, Japan at Doshisha University with Columbia University's KCJS Program.
     `,
@@ -35,7 +35,7 @@ module.exports = {
       {
         name: 'AI vs Human Text Classifier',
         description:
-          'A model that classifies whether or not text is AI generated or written by a person.',
+          'A Regression model that classifies whether or not text is AI generated or written by a person.',
         link: 'https://github.com/theoc3/cs365-proj',
         techStack: 'Python, PyTorch, Tensorflow, scikit-learn, HuggingFace Transformers, NumPy, pandas, Matplotlib, GitHub'
       },  
@@ -137,7 +137,7 @@ module.exports = {
     activities: [
       {
         name: 'Boston University Japanese Student Association',
-        description: 'Senior Advisor: May 2024 - Current | (President 23 - 24, Secretary 22 - 23)',
+        description: 'Senior Advisor: May 2024 - May 2025 | (President 23 - 24, Secretary 22 - 23)',
         link: 'https://www.instagram.com/thebujsa',
         location: 'Boston, MA, U.S.A. (On-Site)'
       }
