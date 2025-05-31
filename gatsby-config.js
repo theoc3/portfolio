@@ -42,7 +42,7 @@ module.exports = {
       {
         name: 'Kyoudai Matching Program',
         description:
-          'A website that uses a simple React front-end and Python back-end that extracts data from csv files, using a bipartite graph and a max-cost min-flow algorithm to match “bigs” and “littles" for the BUJSA Kyoudai program.',
+          'A website that uses a simple React front-end and Python back-end that extracts data from csv files, using a bipartite graph and a max-cost min-flow algorithm to match "bigs" and "littles" for the BUJSA Kyoudai program.',
         link: 'https://github.com/schuyler1007/bujsa',
         techStack: 'Python, C++, NumPy, GitHub'
       },  
@@ -77,28 +77,28 @@ module.exports = {
       {
         name: 'Japanese Study Program',
         description:
-          'A Python program for memorizing the Japanese writing systems of Hiragana and Katakana that adjusts its difficulty based on the user’s familiarity with each character as they answer correctly or incorrectly, keeping track of response time and accuracy.',
+          "A Python program for memorizing the Japanese writing systems of Hiragana and Katakana that adjusts its difficulty based on the user's familiarity with each character as they answer correctly or incorrectly, keeping track of response time and accuracy.",
         link: 'https://github.com/theoc3/JapanesePractice',
         techStack: 'Python, NumPy, GitHub'
       },
       {
         name: 'Scale to Shoot',
         description:
-          'A 2D Unity game developed in 24 hours for the annual GMTK Game Jam. The theme of “Scale" is interpreted as shooting enemies of varying sizes with shots that need to match the size of the enemies.',
+          'A 2D Unity game developed in 24 hours for the annual GMTK Game Jam. The theme of "Scale" is interpreted as shooting enemies of varying sizes with shots that need to match the size of the enemies.',
         link: 'https://itch.io/jam/gmtk-2024/rate/2903129',
         techStack: 'Unity 2D, C#, WebGL, Adobe Photoshop, Adobe Illustrator'
       },
       {
         name: 'Rig the Dice',
         description:
-          'A 3D Unity game developed in 48 hours for the annual GMTK Game Jam. The theme of “Roll of the Dice” is interpreted as rigging dice so that they have the desired outcome for a basic gambling game.',
+          'A 3D Unity game developed in 48 hours for the annual GMTK Game Jam. The theme of "Roll of the Dice" is interpreted as rigging dice so that they have the desired outcome for a basic gambling game.',
         link: 'https://itch.io/jam/gmtk-jam-2022/rate/1623138',
         techStack: 'Unity 3D, C#, WebGL, Blender, Adobe Photoshop, Adobe Illustrator'
       },
       {
         name: 'Color Theory',
         description:
-          'A 2D Unity game developed in 48 hours for the annual GMTK Game Jam. The theme of “Joined Together” is interpreted as both joining together primary colors to create secondary colors and combining the player with same colored enemies to score.',
+          'A 2D Unity game developed in 48 hours for the annual GMTK Game Jam. The theme of "Joined Together" is interpreted as both joining together primary colors to create secondary colors and combining the player with same colored enemies to score.',
         link: 'https://itch.io/jam/gmtk-2021/rate/1081834',
         techStack: 'Unity 2D, C#, WebGL, Adobe Photoshop, Adobe Illustrator'
       }
@@ -207,18 +207,66 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-postcss`,
-    `gatsby-plugin-feed`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-feed`,
       options: {
-        trackingId: `ADD YOUR TRACKING ID HERE`, // Optional Google Analytics
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+                site_url: siteUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allMarkdownRemark } }) => {
+              return allMarkdownRemark.nodes.map(node => {
+                return Object.assign({}, node.frontmatter, {
+                  description: node.excerpt,
+                  date: node.frontmatter.date,
+                  url: site.siteMetadata.siteUrl + node.fields.slug,
+                  guid: site.siteMetadata.siteUrl + node.fields.slug,
+                  custom_elements: [{ "content:encoded": node.html }],
+                })
+              })
+            },
+            query: `{
+              allMarkdownRemark(sort: {frontmatter: {date: DESC}}) {
+                nodes {
+                  excerpt
+                  html
+                  fields {
+                    slug
+                  }
+                  frontmatter {
+                    title
+                    date
+                  }
+                }
+              }
+            }`,
+            output: "/rss.xml",
+            title: "Theo Chen's Portfolio RSS Feed",
+          },
+        ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: ["YOUR_TRACKING_ID"],
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `devfolio`,
-        short_name: `devfolio`,
+        name: `Theo Chen Portfolio`,
+        short_name: `Theo Chen`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`, // This color appears on mobile
