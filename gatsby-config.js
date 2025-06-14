@@ -19,7 +19,7 @@ module.exports = {
     // Content of the About Me section
     about: `Hi! I'm Theo, and I'm passionate about how we can use technology to enhance our ability to learn languages! <br/>
 
-    Overall, I love building software that solves problems and brings joy to the user, from a big-little matching algorithm to a game about rigging dice in your favor! <br/>
+    I love building software that solves problems and brings joy to the user, from a big-little matching algorithm to a game about rigging dice in your favor! <br/>
 
     I was the former President of the Boston University Japanese Student Association, and recently studied abroad in Kyoto, Japan at Doshisha University with Columbia University's KCJS Program.
     `,
