@@ -5,7 +5,7 @@ module.exports = {
     // Your Name
     name: 'Theo Chen',
     // Main Site Title
-    title: `Theo Chen | Recent BU Graduate Computer Science & Japanese`,
+    title: `Theo Chen | Recent BU Graduate: Computer Science & Japanese`,
     // Description that goes under your name in main bio
     description: `Recent Boston University Graduate | Computer Science & Japanese`,
     // Optional: Twitter account handle
