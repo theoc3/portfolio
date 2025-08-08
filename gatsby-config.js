@@ -17,23 +17,26 @@ module.exports = {
     // Optional: itch.io account URL
     itchio: `https://itch.io/profile/talcgames`,
     // Content of the About Me section
-    about: `Hi! I'm Theo, and I'm passionate about how we can apply technology to make our world.a better place :)<br/>
+    about: `Hi, I'm Theo!<br/>
 
-    I was the former President of the Boston University Japanese Student Association, and recently studied abroad in Kyoto, Japan at Doshisha University with Columbia University's KCJS Program.
+    I'm a recent BU graduate who majored in Computer Science with a minor in Japanese. I was the former President of the Boston University Japanese Student Association, and recently studied abroad in Kyoto, Japan at Doshisha University with Columbia University's KCJS Program.<br/>
+
+    As demonstrated by my various projects in undergrad, I'm most passionate about the intersection of computer science and other scientific fields, most prevelantly linguistics. However, I'm also interested in applying my skills to other research-heavy fields like bioinformatics. 
+
     `,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
         name: 'Japanese Verb Classifier',
         description:
-          'A BiLSTM model that classifies the verbs in Japanese sentences by their tense/voice',
+          'A research paper on using a BiLSTM model to classify the verbs in Japanese sentences by their tense/voice',
         link: 'https://github.com/theoc3/jp-verb-classifier',
         techStack: 'Python, PyTorch, NumPy, pandas, spacy, MeCab, GitHub'
       },
       {
         name: 'AI vs Human Text Classifier',
         description:
-          'A Regression model that classifies whether or not text is AI generated or written by a person.',
+          'A research paper on using a logistic regression model to classify whether or not text is AI generated or written by a person.',
         link: 'https://github.com/theoc3/cs365-proj',
         techStack: 'Python, PyTorch, Tensorflow, scikit-learn, HuggingFace Transformers, NumPy, pandas, Matplotlib, GitHub'
       },  
