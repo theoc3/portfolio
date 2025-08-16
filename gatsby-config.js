@@ -21,7 +21,7 @@ module.exports = {
 
     I'm a recent BU graduate who majored in Computer Science with a minor in Japanese. I was the former President of the Boston University Japanese Student Association, and recently studied abroad in Kyoto, Japan at Doshisha University with Columbia University's KCJS Program.<br/>
 
-    As demonstrated by my various projects in undergrad, I'm most passionate about the intersection of computer science and other scientific fields, most prevelantly linguistics. However, I'm also interested in applying my skills to other research-heavy fields like bioinformatics. 
+    My biggest passion is in the intersection of computer science and other scientific fields, most prevelantly linguistics. However, I'm also interested in applying my skills to other research-heavy fields like bioinformatics. 
 
     `,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
