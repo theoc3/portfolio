@@ -5,9 +5,9 @@ module.exports = {
     // Your Name
     name: 'Theo Chen',
     // Main Site Title
-    title: `Theo Chen | Recent BU Graduate: Computer Science & Japanese`,
+    title: `Theo Chen | Research Applications Developer @ BU Precision Brain Health Initiative`,
     // Description that goes under your name in main bio
-    description: `Recent Boston University Graduate | Computer Science & Japanese`,
+    description: `Research Applications Developer @ BU Precision Brain Health Initiative`,
     // Optional: Twitter account handle
     //author: `@theoc3`,
     // Optional: Github account URL
@@ -19,7 +19,9 @@ module.exports = {
     // Content of the About Me section
     about: `Hi, I'm Theo!<br/>
 
-    I'm a recent BU graduate who majored in Computer Science with a minor in Japanese. I was the former President of the Boston University Japanese Student Association, and recently studied abroad in Kyoto, Japan at Doshisha University with Columbia University's KCJS Program.<br/>
+    I'm currently working as a developer at the Precision Brain Health Initiative at the BU Chobanian & Avedisian School of Medicine.
+
+    I'm a recent BU alum who majored in Computer Science with a minor in Japanese. I was the former President of the Boston University Japanese Student Association, and recently studied abroad in Kyoto, Japan at Doshisha University with Columbia University's KCJS Program.<br/>
 
     My biggest passion is in the intersection of computer science and other scientific fields, most prevelantly linguistics. However, I'm also interested in applying my skills to other research-heavy fields like bioinformatics. 
 
@@ -106,6 +108,13 @@ module.exports = {
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
+      {
+        name: 'Boston University Precision Brain Health Initiative',
+        description: 'Research Applications Developer: November 2025 - Current',
+        link: 'https://www.bumc.bu.edu/pbhi/',
+        techStack: 'Python',
+        location: 'Boston, MA, U.S.A. (On-Site)'
+      },
       {
         name: 'Boston University Second Language Acquisition Lab',
         description: 'Research Assistant: January 2025 - Current',
