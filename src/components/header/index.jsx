@@ -18,7 +18,7 @@ const classes = {
 };
 
 const Header = ({ metadata = {}, noBlog = false }) => {
-  const itchio = get(metadata, 'itchio', false);
+  //const itchio = get(metadata, 'itchio', false);
   const github = get(metadata, 'github', false);
   const linkedin = get(metadata, 'linkedin', false);
 
@@ -49,7 +49,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               </a>
             </li>
           )}
-          {itchio && (
+          {/* {itchio && (
             <li className={classes.item}>
               <a
                 className={classes.link}
@@ -60,7 +60,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
                 itch.io
               </a>
             </li>
-          )}
+          )} */}
         </ul>
       </div>
     </div>

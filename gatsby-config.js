@@ -17,13 +17,12 @@ module.exports = {
     // Optional: itch.io account URL
     itchio: `https://itch.io/profile/talcgames`,
     // Content of the About Me section
-    about: `Hi, I'm Theo!<br/>
-
+    about: `
     I'm currently working as a developer at the Precision Brain Health Initiative at the BU Chobanian & Avedisian School of Medicine.
 
     I'm a recent BU alum who majored in Computer Science with a minor in Japanese. I was the former President of the Boston University Japanese Student Association, and recently studied abroad in Kyoto, Japan at Doshisha University with Columbia University's KCJS Program.<br/>
 
-    My biggest passion is in the intersection of computer science and other scientific fields, most prevelantly linguistics. However, I'm also interested in applying my skills to other research-heavy fields like bioinformatics. 
+    My biggest passion is in the intersection of computer science and its use in scientific research, most prevelantly linguistics. Additionaly, I'm planning on pursuing a master's in bioinformatics while I work with the goal of applying my existing computer science skills to a field where I can contribute to research that will directly benefit people's lives.. 
 
     `,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
@@ -33,77 +32,77 @@ module.exports = {
         description:
           'A research paper on using a BiLSTM model to classify the verbs in Japanese sentences by their tense/voice',
         link: 'https://github.com/theoc3/jp-verb-classifier',
-        techStack: 'Python, PyTorch, NumPy, pandas, spacy, MeCab, GitHub'
+        techStack: 'Python, PyTorch, NumPy, pandas, spacy, MeCab'
       },
       {
         name: 'AI vs Human Text Classifier',
         description:
           'A research paper on using a logistic regression model to classify whether or not text is AI generated or written by a person.',
         link: 'https://github.com/theoc3/cs365-proj',
-        techStack: 'Python, PyTorch, Tensorflow, scikit-learn, HuggingFace Transformers, NumPy, pandas, Matplotlib, GitHub'
+        techStack: 'Python, PyTorch, Tensorflow, scikit-learn, NumPy, pandas'
       },  
       {
         name: 'Kyoudai Matching Program',
         description:
-          'A website that uses a simple React front-end and Python back-end that extracts data from csv files, using a bipartite graph and a max-cost min-flow algorithm to match "bigs" and "littles" for the BUJSA Kyoudai program.',
+          'A website that extracts data from csv files, using a bipartite graph and a max-cost min-flow algorithm to match "bigs" and "littles" for the BUJSA Kyoudai program.',
         link: 'https://github.com/schuyler1007/bujsa',
-        techStack: 'Python, C++, NumPy, GitHub'
+        techStack: 'Python, C++, NumPy'
       },  
       {
         name: 'Japanese Handwriting Rater',
         description:
-          'A script that rates Japanese kana handwriting using EasyOCR library and a custom machine learning model trained on generated handwriting images.',
+          'A script that rates Japanese kana handwriting using the EasyOCR library and a model trained on generated handwriting images.',
         link: 'https://github.com/theoc3/handwriting-rating',
-        techStack: 'Python, PyTorch, NumPy, pandas, scikit-learn, Matplotlib, EasyOCR, OpenCV, GitHub'
+        techStack: 'Python, PyTorch, NumPy, pandas, scikit-learn, EasyOCR'
       },
       {
         name: 'Stationery Blog',
         description:
-          'A blog created with the Next.js framework displaying blog posts and reviews of stationery written in Markdown.',
+          'A markdown based blog page for stationery reviews',
         link: 'https://theosbungu.com',
-        techStack: 'React, Next.js, JavaScript, Tailwind CSS, Markdown, HTML, Vercel, GitHub'
+        techStack: 'React, Next.js'
       },
       {
         name: 'Spark Bytes MVP Demo Website',
         description:
-          'A MVP website hosting user generated posts for food leftovers at BU events with user authentication via OAuth 2.0 and Prisma interactions with a PostgreSQL database using Express.js API access. Worked in a simulated scrum team of 4, with 3 sprints total.',
+          'A MVP website hosting user generated posts for food leftovers at BU events with user authentication. Worked in a simulated scrum team of 4, with 3 sprints total.',
         link: 'https://spark-bytes-demo.vercel.app/',
-        techStack: 'React, Express.js, Next.js, TypeScript, Tailwind CSS, OAuth 2.0, Prisma, PostgreSQL, Vercel, Railway, GitHub'
+        techStack: 'React, Express, Next, Prisma, PostgreSQL'
       },
       {
         name: 'Space News Website',
         description:
-          'A website that displays the latest news about space using React and a public Space News API.',
+          'A website that displays the latest news about space from a public Space News API.',
         link: 'https://cs392-space-news-project.vercel.app/',
-        techStack: 'React, JavaScript, Tailwind CSS, HTML, Vercel, GitHub'
+        techStack: 'React'
       },
       {
         name: 'Japanese Study Program',
         description:
           "A Python program for memorizing the Japanese writing systems of Hiragana and Katakana that adjusts its difficulty based on the user's familiarity with each character as they answer correctly or incorrectly, keeping track of response time and accuracy.",
         link: 'https://github.com/theoc3/JapanesePractice',
-        techStack: 'Python, NumPy, GitHub'
+        techStack: 'Python, NumPy'
       },
       {
         name: 'Scale to Shoot',
         description:
           'A 2D Unity game developed in 24 hours for the annual GMTK Game Jam. The theme of "Scale" is interpreted as shooting enemies of varying sizes with shots that need to match the size of the enemies.',
         link: 'https://itch.io/jam/gmtk-2024/rate/2903129',
-        techStack: 'Unity 2D, C#, WebGL, Adobe Photoshop, Adobe Illustrator'
+        techStack: 'Unity 2D, C# Adobe Photoshop, Adobe Illustrator'
       },
       {
         name: 'Rig the Dice',
         description:
           'A 3D Unity game developed in 48 hours for the annual GMTK Game Jam. The theme of "Roll of the Dice" is interpreted as rigging dice so that they have the desired outcome for a basic gambling game.',
         link: 'https://itch.io/jam/gmtk-jam-2022/rate/1623138',
-        techStack: 'Unity 3D, C#, WebGL, Blender, Adobe Photoshop, Adobe Illustrator'
+        techStack: 'Unity 3D, C# Blender, Adobe Photoshop, Adobe Illustrator'
       },
       {
         name: 'Color Theory',
         description:
           'A 2D Unity game developed in 48 hours for the annual GMTK Game Jam. The theme of "Joined Together" is interpreted as both joining together primary colors to create secondary colors and combining the player with same colored enemies to score.',
         link: 'https://itch.io/jam/gmtk-2021/rate/1081834',
-        techStack: 'Unity 2D, C#, WebGL, Adobe Photoshop, Adobe Illustrator'
+        techStack: 'Unity 2D, C# Adobe Photoshop, Adobe Illustrator'
       }
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
@@ -126,21 +125,21 @@ module.exports = {
         name: 'GitStart (YC19)',
         description: 'Software Engineering Intern: May 2024 - August 2024',
         link: 'https://gitstart.com/',
-        techStack: 'React, Node.js, TypeScript, GraphQL, Elixir, Tailwind CSS, HTML, SQL, GitHub, Docker ',
+        techStack: 'React, Node, GraphQL, Elixir, SQL, Docker',
         location: 'San Francisco, CA, U.S.A. (Remote)'
       },
       {
         name: 'Timewitch Inc.',
         description: 'Software Engineering Intern: December 2023 - January 2024',
         link: 'https://timewitch.jp/',
-        techStack: 'React, Node.js, Express.js, TypeScript, Tailwind CSS, HTMl, SQL, Prisma, Redis, Zod, Microsoft Azure, GitHub',
+        techStack: 'React, Node, Express, SQL, Azure',
         location: 'Tokyo, Japan (Remote)'
       },
       {
         name: 'Cardinal Blue Software, Inc.',
         description: 'Product Operations Intern: June 2017 - July 2017',
         link: 'https://picc.co/',
-        techStack: 'Python, Adobe Photoshop, Adobe Illustrator, Adobe Premiere Pro, Microsoft Excel',
+        techStack: 'Python, Adobe Photoshop, Adobe Illustrator, Adobe Premiere Pro',
         location: 'Taipei, Taiwan (On-Site)'
       },
     ],

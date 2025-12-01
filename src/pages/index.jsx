@@ -25,16 +25,22 @@ const Index = ({ data }) => {
     <Layout>
       <SEO />
       <Header metadata={data.site.siteMetadata} noBlog={noBlog} />
-      {about && <SectionAbout about={about} />}
-      {projects && projects.length && <SectionProjects projects={projects} />}
-
-      {experience && experience.length && (
-        <SectionExperience experience={experience} />
-      )}
-      {activities && activities.length && (
-        <SectionActivities activities={activities} />
-      )}
-      {skills && skills.length && <SectionSkills skills={skills} />}
+      <div className="md:flex md:flex-row">
+        <div className="md:w-1/2 md:pr-4">
+          {about && <SectionAbout about={about} />}
+          {experience && experience.length && (
+            <SectionExperience experience={experience} />
+          )}
+          {activities && activities.length && (
+            <SectionActivities activities={activities} />
+          )}
+          {/* {skills && skills.length && <SectionSkills skills={skills} />} */}
+          {/*!noBlog && <SectionBlog posts={posts} />*/}
+        </div>
+        <div className="md:w-1/2 md:pl-4">
+          {projects && projects.length && <SectionProjects projects={projects} />}
+        </div>
+      </div>
     </Layout>
   );
 };
@@ -52,7 +58,7 @@ export const pageQuery = graphql`
         author
         github
         linkedin
-        itchio
+        
         projects {
           name
           description

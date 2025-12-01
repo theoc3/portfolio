@@ -40,7 +40,7 @@ const SummaryItem = ({ name, description, techStack = '', link = false, internal
       </div>
       <p className={classes.description}>{description}</p>
       {techStack && (
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap gap-2 mt-2">
           {techStack.split(',').map((tech, index) => (
             <span key={index} className={classes.techStack}>{tech.trim()}</span>
           ))}

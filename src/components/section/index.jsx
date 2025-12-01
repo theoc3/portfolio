@@ -1,11 +1,11 @@
 import React from 'react';
 
 const classes = {
-  wrapper: 'block pt-12 md:flex',
-  title: 'pb-6 md:w-full md:max-w-150 md:p-0',
+  wrapper: 'block pt-12',
+  title: 'pb-8 md:w-full',
   heading:
-    'font-xs font-light tracking-widest text-sm text-gray-600 leading-normal uppercase',
-  content: 'flex-none text-lg text-gray-600 font-light md:flex-1 md:pl-20',
+    'text-2xl font-bold tracking-widest text-gray-1200 leading-normal uppercase underline',
+  content: 'text-lg text-gray-600 font-light',
 };
 
 const Section = ({ title, children }) => {
