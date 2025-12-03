@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer base {
+  html, body {
+    @apply bg-green text-text-main;
+  }
+
   .blog-content {
     @apply text-gray-600;
     @apply max-w-screen-md;

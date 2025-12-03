@@ -7,7 +7,8 @@ module.exports = {
     // Main Site Title
     title: `Theo Chen | Research Applications Developer @ BU Precision Brain Health Initiative`,
     // Description that goes under your name in main bio
-    description: `Research Applications Developer @ BU Precision Brain Health Initiative`,
+    description: `Research Applications Developer @ Boston University Precision Brain Health Initiative
+    B.A. in Computer Science & Minor in Japanese from Boston University`,
     // Optional: Twitter account handle
     //author: `@theoc3`,
     // Optional: Github account URL
@@ -108,14 +109,14 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Boston University Precision Brain Health Initiative',
+        name: 'BU Precision Brain Health Initiative',
         description: 'Research Applications Developer: November 2025 - Current',
         link: 'https://www.bumc.bu.edu/pbhi/',
         techStack: 'Python',
         location: 'Boston, MA, U.S.A. (On-Site)'
       },
       {
-        name: 'Boston University Second Language Acquisition Lab',
+        name: 'BU Second Language Acquisition Lab',
         description: 'Research Assistant: January 2025 - Current',
         link: 'https://www.bu.edu/wheelock/profile/kathy-minhye-kim/',
         techStack: 'Gorilla, TypeScript, R',
@@ -151,26 +152,21 @@ module.exports = {
         location: 'Boston, MA, U.S.A. (On-Site)'
       }
     ],
-    // Optional: List your skills, they must have `name` and `description`.
-    skills: [
+    // Optional: List your languages, they must have `name` and `description`.
+    languages: [
       {
-        name: 'Programming Languages',
+        name: 'English',
         description:
-          'Python, HTML, CSS, Javascript, Typescript, SQL, R, C, C#, C++, Java, Git, Assembly, Bash',
+          'Native Speaking/Listening, Native Reading/Writing',
       },
       {
-        name: 'Web Development',
-        description: 'React, Node.js, Next.js, Express.js, Prisma, Redis, MongoDB, Zod, GraphQL, Elixir, Tailwind, OAuth 2.0, PostgreSQL, Vercel, Railway, Azure',
+        name: 'Mandarin Chinese (Traditional)',
+        description: 'Native Speaking/Listening, Intermediate Reading/Writing',
       },
       {
-        name: 'Machine Learning/Data Science',
+        name: 'Japanese',
         description:
-          'NumPy, pandas, scikit-learn, PyTorch, TensorFlow, Matplotlib, EasyOCR',
-      },
-      {
-        name: 'Software/Tools',
-        description: 
-          'Unity 2D/3D, Vim, Emacs, Docker, VSCode, Spyder, Adobe Suite, Microsoft Suite, Google Suite, Logic Pro, Blender',
+          'Conversational Speaking/Listening, Intermediate Reading/Writing',
       }
     ],
   },

@@ -9,7 +9,7 @@ import SectionBlog from '../components/section-blog';
 import SectionExperience from '../components/section-experience';
 import SectionActivities from '../components/section-activities';
 import SectionProjects from '../components/section-projects';
-import SectionSkills from '../components/section-skills';
+import SectionLanguages from '../components/section-languages';
 import SEO from '../components/seo';
 
 const Index = ({ data }) => {
@@ -18,27 +18,45 @@ const Index = ({ data }) => {
   const posts = data.allMarkdownRemark.edges;
   const experience = get(data, 'site.siteMetadata.experience', false);
   const activities = get(data, 'site.siteMetadata.activities', false);
-  const skills = get(data, 'site.siteMetadata.skills', false);
+  const languages = get(data, 'site.siteMetadata.languages', false);
   const noBlog = !posts || !posts.length;
 
   return (
     <Layout>
       <SEO />
-      <Header metadata={data.site.siteMetadata} noBlog={noBlog} />
+      <div className="animate-slide-in-down" style={{ animationDelay: '300ms' }}>
+        <Header metadata={data.site.siteMetadata} noBlog={noBlog} />
+      </div>
       <div className="md:flex md:flex-row">
         <div className="md:w-1/2 md:pr-4">
-          {about && <SectionAbout about={about} />}
+          {about && (
+            <div className="animate-slide-in-left" style={{ animationDelay: '500ms' }}>
+              <SectionAbout about={about} />
+            </div>
+          )}
           {experience && experience.length && (
-            <SectionExperience experience={experience} />
+            <div className="animate-slide-in-left" style={{ animationDelay: '700ms' }}>
+              <SectionExperience experience={experience} />
+            </div>
           )}
           {activities && activities.length && (
-            <SectionActivities activities={activities} />
+            <div className="animate-slide-in-left" style={{ animationDelay: '1100ms' }}>
+              <SectionActivities activities={activities} />
+            </div>
           )}
-          {/* {skills && skills.length && <SectionSkills skills={skills} />} */}
+          {languages && languages.length && (
+            <div className="animate-slide-in-left" style={{ animationDelay: '1300ms' }}>
+              <SectionLanguages languages={languages} />
+            </div>
+          )}
           {/*!noBlog && <SectionBlog posts={posts} />*/}
         </div>
         <div className="md:w-1/2 md:pl-4">
-          {projects && projects.length && <SectionProjects projects={projects} />}
+          {projects && projects.length && (
+            <div className="animate-slide-in-right" style={{ animationDelay: '900ms' }}>
+              <SectionProjects projects={projects} />
+            </div>
+          )}
         </div>
       </div>
     </Layout>
@@ -79,7 +97,7 @@ export const pageQuery = graphql`
           link
           location
         }
-        skills {
+        languages {
           name
           description
         }

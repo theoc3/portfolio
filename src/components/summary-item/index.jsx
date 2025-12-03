@@ -4,10 +4,10 @@ import React from 'react';
 const classes = {
   wrapper: 'mb-6',
   name: 'font-semibold text-gray-900 pb-1',
-  location: 'text-sm text-gray-500',
-  description: 'text-md text-gray-600 font-light pb-1',
-  techStack: 'text-sm text-gray-500 font-light bg-gray-200 rounded px-3', 
-  arrow: 'inline-block transform transition-transform duration-200', 
+  location: 'text-sm text-gray-600',
+  description: 'text-md text-gray-700 font-light pb-1 whitespace-pre-line',
+  techStack: 'text-sm text-text-secondary font-light bg-green-dark rounded px-3 border border-green-darker', 
+  arrow: 'inline-block transform transition-transform duration-200',
 };
 
 const SummaryItem = ({ name, description, techStack = '', link = false, internal = false, location = '' }) => {
