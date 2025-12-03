@@ -46,7 +46,7 @@ module.exports = {
         description:
           'A website that extracts data from csv files, using a bipartite graph and a max-cost min-flow algorithm to match "bigs" and "littles" for the BUJSA Kyoudai program.',
         link: 'https://github.com/schuyler1007/bujsa',
-        techStack: 'Python, C++, NumPy'
+        techStack: 'Python, NumPy, C++, React'
       },  
       {
         name: 'Japanese Handwriting Rater',
@@ -60,7 +60,7 @@ module.exports = {
         description:
           'A markdown based blog page for stationery reviews',
         link: 'https://theosbungu.com',
-        techStack: 'React, Next.js'
+        techStack: 'React, Next'
       },
       {
         name: 'Spark Bytes MVP Demo Website',
@@ -125,7 +125,7 @@ module.exports = {
         name: 'GitStart (YC19)',
         description: 'Software Engineering Intern: May 2024 - August 2024',
         link: 'https://gitstart.com/',
-        techStack: 'React, Node, GraphQL, Elixir, SQL, Docker',
+        techStack: 'React, Node, GraphQL, SQL, Docker',
         location: 'San Francisco, CA, U.S.A. (Remote)'
       },
       {
