@@ -64,13 +64,6 @@ module.exports = {
         techStack: 'React, Next'
       },
       {
-        name: 'Spark Bytes MVP Demo Website',
-        description:
-          'A MVP website hosting user generated posts for food leftovers at BU events with user authentication. Worked in a simulated scrum team of 4, with 3 sprints total.',
-        link: 'https://spark-bytes-demo.vercel.app/',
-        techStack: 'React, Express, Next, Prisma, PostgreSQL'
-      },
-      {
         name: 'Space News Website',
         description:
           'A website that displays the latest news about space from a public Space News API.',
