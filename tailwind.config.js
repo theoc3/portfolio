@@ -7,14 +7,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        beige: '#f5f2eb',
-        'beige-dark': '#e6e2d8',
-        'beige-darker': '#dcd8ce',
-        green: '#e8f0e8',
-        'green-dark': '#dcebdc',
-        'green-darker': '#d0e0d0',
-        'text-main': '#2d3748', // gray-800
-        'text-secondary': '#4a5568', // gray-700
+        'dark-bg': '#0a0a0a',
+        'dark-lighter': '#1a1a1a',
+        'accent': '#ffffff',
+        'accent-muted': '#a0a0a0',
+        'accent-dim': '#666666',
       },
       screens: {
         xs: '480px',

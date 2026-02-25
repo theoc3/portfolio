@@ -2,67 +2,36 @@ import { Link } from 'gatsby';
 import get from 'lodash/get';
 import React from 'react';
 
-import profileImg from '../../images/profile.jpg';
-
 const classes = {
-  wrapper: 'block md:flex p-10 bg-white/50 backdrop-blur-md rounded-3xl shadow-xl border border-white/30',
-  imageWrapper: 'w-full max-w-150',
-  image: 'rounded-full transform transition-all duration-150 hover:scale-105',
-  contentWrapper: 'flex-none pt-6 md:pt-1 md:flex-1 md:pl-20',
-  name: 'text-5xl text-gray-900 font-bold leading-tight hover:text-black',
-  description: 'text-gray-700 whitespace-pre-line',
-  list: 'mt-2 uppercase tracking-wider',
-  item: 'inline list-none pr-4',
-  link:
-    'inline-block py-2 font-semibold text-xs text-gray-700 hover:text-black hover-arrow',
-  arrow: 'inline-block transform transition-transform duration-200',
+  wrapper: 'fixed top-0 left-0 right-0 z-50 bg-dark-bg/80 backdrop-blur-sm border-b border-accent-dim/20',
+  inner: 'max-w-7xl mx-auto px-6 md:px-12 py-6 flex justify-between items-center',
+  name: 'text-xl font-medium text-accent hover:text-accent-muted transition-colors',
+  nav: 'flex gap-8',
+  link: 'text-sm text-accent-muted hover:text-accent transition-colors',
 };
 
-const Header = ({ metadata = {}, noBlog = false }) => {
-  //const itchio = get(metadata, 'itchio', false);
+const Header = ({ metadata = {} }) => {
   const github = get(metadata, 'github', false);
   const linkedin = get(metadata, 'linkedin', false);
 
   return (
     <div className={classes.wrapper}>
-      <div className={classes.imageWrapper}>
-        <Link to="/">
-          <img className={classes.image} src={profileImg} alt={metadata.name} />
+      <div className={classes.inner}>
+        <Link to="/" className={classes.name}>
+          {metadata.name}
         </Link>
-      </div>
-      <div className={classes.contentWrapper}>
-        <h1 className={classes.name}>
-          <Link to="/">{metadata.name}</Link>
-        </h1>
-        <p className={classes.description}>{metadata.description}</p>
-        <ul className={classes.list}>
+        <nav className={classes.nav}>
           {github && (
-            <li className={classes.item}>
-              <a className={classes.link} href={github} target="_blank" rel="noopener noreferrer">
-                GitHub <span className={`${classes.arrow} arrow`}>↗</span>
-              </a>
-            </li>
+            <a className={classes.link} href={github} target="_blank" rel="noopener noreferrer">
+              GitHub
+            </a>
           )}
           {linkedin && (
-            <li className={classes.item}>
-              <a className={classes.link} href={linkedin} target="_blank" rel="noopener noreferrer">
-                LinkedIn <span className={`${classes.arrow} arrow`}>↗</span>
-              </a>
-            </li>
+            <a className={classes.link} href={linkedin} target="_blank" rel="noopener noreferrer">
+              LinkedIn
+            </a>
           )}
-          {/* {itchio && (
-            <li className={classes.item}>
-              <a
-                className={classes.link}
-                href={itchio}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                itch.io
-              </a>
-            </li>
-          )} */}
-        </ul>
+        </nav>
       </div>
     </div>
   );

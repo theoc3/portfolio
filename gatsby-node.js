@@ -84,6 +84,9 @@ exports.createSchemaCustomization = ({ actions }) => {
       name: String!
       description: String!
       link: String!
+      image: String
+      techStack: String
+      location: String
     }
 
     type MarkdownRemark implements Node {

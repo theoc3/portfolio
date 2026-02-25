@@ -8,6 +8,7 @@ module.exports = {
     title: `Theo Chen | Research Applications Developer @ BU Precision Brain Health Initiative`,
     // Description that goes under your name in main bio
     description: `Research Applications Developer @ Boston University Precision Brain Health Initiative
+    \n
     B.A. in Computer Science & Minor in Japanese from Boston University`,
     // Optional: Twitter account handle
     //author: `@theoc3`,
@@ -33,6 +34,7 @@ module.exports = {
         description:
           'A research paper on using a BiLSTM model to classify the verbs in Japanese sentences by their tense/voice',
         link: 'https://github.com/theoc3/jp-verb-classifier',
+        image: 'jp-classification',
         techStack: 'Python, PyTorch, NumPy, pandas, spacy, MeCab'
       },
       {
@@ -40,6 +42,7 @@ module.exports = {
         description:
           'A research paper on using a logistic regression model to classify whether or not text is AI generated or written by a person.',
         link: 'https://github.com/theoc3/cs365-proj',
+        image: 'llm-paper',
         techStack: 'Python, PyTorch, Tensorflow, scikit-learn, NumPy, pandas'
       },  
       {
@@ -47,6 +50,7 @@ module.exports = {
         description:
           'A website that extracts data from csv files, using a bipartite graph and a max-cost min-flow algorithm to match "bigs" and "littles" for the BUJSA Kyoudai program.',
         link: 'https://github.com/schuyler1007/bujsa',
+        image: 'kyoudai',
         techStack: 'Python, NumPy, C++, React'
       },  
       {
@@ -54,34 +58,36 @@ module.exports = {
         description:
           'A script that rates Japanese kana handwriting using the EasyOCR library and a model trained on generated handwriting images.',
         link: 'https://github.com/theoc3/handwriting-rating',
+        image: 'handwriting',
         techStack: 'Python, PyTorch, NumPy, pandas, scikit-learn, EasyOCR'
       },
-      {
-        name: 'Stationery Blog',
-        description:
-          'A markdown based blog page for stationery reviews',
-        link: 'https://theosbungu.com',
-        techStack: 'React, Next'
-      },
-      {
-        name: 'Space News Website',
-        description:
-          'A website that displays the latest news about space from a public Space News API.',
-        link: 'https://cs392-space-news-project.vercel.app/',
-        techStack: 'React'
-      },
-      {
-        name: 'Japanese Study Program',
-        description:
-          "A Python program for memorizing the Japanese writing systems of Hiragana and Katakana that adjusts its difficulty based on the user's familiarity with each character as they answer correctly or incorrectly, keeping track of response time and accuracy.",
-        link: 'https://github.com/theoc3/JapanesePractice',
-        techStack: 'Python, NumPy'
-      },
+      // {
+      //   name: 'Stationery Blog',
+      //   description:
+      //     'A markdown based blog page for stationery reviews',
+      //   link: 'https://theosbungu.com',
+      //   techStack: 'React, Next'
+      // },
+      // {
+      //   name: 'Space News Website',
+      //   description:
+      //     'A website that displays the latest news about space from a public Space News API.',
+      //   link: 'https://cs392-space-news-project.vercel.app/',
+      //   techStack: 'React'
+      // },
+      // {
+      //   name: 'Japanese Study Program',
+      //   description:
+      //     "A Python program for memorizing the Japanese writing systems of Hiragana and Katakana that adjusts its difficulty based on the user's familiarity with each character as they answer correctly or incorrectly, keeping track of response time and accuracy.",
+      //   link: 'https://github.com/theoc3/JapanesePractice',
+      //   techStack: 'Python, NumPy'
+      // },
       {
         name: 'Scale to Shoot',
         description:
           'A 2D Unity game developed in 24 hours for the annual GMTK Game Jam. The theme of "Scale" is interpreted as shooting enemies of varying sizes with shots that need to match the size of the enemies.',
         link: 'https://itch.io/jam/gmtk-2024/rate/2903129',
+        image: 'scale-to-shoot',
         techStack: 'Unity 2D, C# Adobe Photoshop, Adobe Illustrator'
       },
       {
@@ -89,6 +95,7 @@ module.exports = {
         description:
           'A 3D Unity game developed in 48 hours for the annual GMTK Game Jam. The theme of "Roll of the Dice" is interpreted as rigging dice so that they have the desired outcome for a basic gambling game.',
         link: 'https://itch.io/jam/gmtk-jam-2022/rate/1623138',
+        image: 'rig-the-dice',
         techStack: 'Unity 3D, C# Blender, Adobe Photoshop, Adobe Illustrator'
       },
       {
@@ -96,6 +103,7 @@ module.exports = {
         description:
           'A 2D Unity game developed in 48 hours for the annual GMTK Game Jam. The theme of "Joined Together" is interpreted as both joining together primary colors to create secondary colors and combining the player with same colored enemies to score.',
         link: 'https://itch.io/jam/gmtk-2021/rate/1081834',
+        image: 'color-theory',
         techStack: 'Unity 2D, C# Adobe Photoshop, Adobe Illustrator'
       }
     ],
@@ -263,7 +271,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Theo Chen Portfolio`,
+        name: `Theo Chen`,
         short_name: `Theo Chen`,
         start_url: `/`,
         background_color: `#663399`,
