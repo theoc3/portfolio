@@ -47,6 +47,7 @@ const SectionProjects = ({ projects, images = [] }) => {
                     alt={project.name} 
                     className={classes.gatsbyImage}
                     imgStyle={{ objectPosition: 'top' }}
+                    loading="lazy"
                   />
                   <div className={classes.projectImageOverlay} />
                 </>
