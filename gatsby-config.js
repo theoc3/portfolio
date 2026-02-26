@@ -113,7 +113,7 @@ module.exports = {
         name: 'BU Precision Brain Health Initiative',
         description: 'Research Applications Developer: November 2025 - Current',
         link: 'https://www.bumc.bu.edu/pbhi/',
-        techStack: 'Python',
+        techStack: 'Python, TypeScript, C#',
         location: 'Boston, MA, U.S.A. (On-Site)'
       },
       {
