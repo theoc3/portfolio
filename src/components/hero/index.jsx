@@ -3,7 +3,7 @@ import profileImg from '../../images/profile.jpg';
 
 const classes = {
   wrapper: 'pt-20 pb-20 px-6 md:px-12 max-w-7xl mx-auto',
-  contentWrapper: 'flex flex-col md:flex-row items-start gap-12',
+  contentWrapper: 'flex flex-col md:flex-row items-center gap-12',
   imageWrapper: 'flex-shrink-0',
   image: 'w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-2 border-accent-dim/30',
   textContent: 'flex-1',
