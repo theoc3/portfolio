@@ -20,11 +20,11 @@ module.exports = {
     itchio: `https://itch.io/profile/talcgames`,
     // Content of the About Me section
     about: `
-    I'm currently working as a developer at the Precision Brain Health Initiative at the BU Chobanian & Avedisian School of Medicine. Our projects largely focus on research into the integration of digital technologies in brain health monitoring, especially pertaining to the early identification of signs of Alzheimer's. <br/>
+    I'm currently working as a developer at the Precision Brain Health Initiative in the BU Chobanian & Avedisian School of Medicine. Our projects focus on the integration of digital data produced by wearable health tracking devices with cognitive health monitoring, particularly pertaining to the early identification of signs of Alzheimer's. <br/>
 
-    I'm a recent BU alum who majored in Computer Science with a minor in Japanese. I was the former President of the Boston University Japanese Student Association, and recently studied abroad in Kyoto, Japan at Doshisha University with Columbia University's KCJS Program.<br/>
+    Additionally, I'm a recent BU alum who majored in Computer Science with a minor in Japanese. I was the former President of the Boston University Japanese Student Association, and recently studied abroad in Kyoto, Japan at Doshisha University with Columbia University's KCJS Program.<br/>
 
-    My biggest passion is in the intersection of computer science and its use in scientific research, most prevelantly linguistics throughout my undergrad. Additionaly, I'm planning on pursuing a master's in bioinformatics while I work with the goal of adapting my existing computer science skills to benefit research in health and medicine that will directly benefit people's lives.
+    I'm most interested in the use of computer science and its applications in scientific research, most prevelantly linguistics. Additionally, I'm planning on pursuing a master's in bioinformatics while I work with the goal of adapting my existing computer science skills to work on research in health and medicine that will directly benefit people's lives.
 
     `,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
@@ -118,7 +118,7 @@ module.exports = {
       },
       {
         name: 'BU Second Language Acquisition Lab',
-        description: 'Research Assistant: January 2025 - Current',
+        description: 'Research Assistant: January 2025 - March 2025',
         link: 'https://www.bu.edu/wheelock/profile/kathy-minhye-kim/',
         techStack: 'Gorilla, TypeScript, R',
         location: 'Boston, MA, U.S.A. (On-Site)'
