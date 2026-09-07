@@ -20,11 +20,11 @@ module.exports = {
     itchio: `https://itch.io/profile/talcgames`,
     // Content of the About Me section
     about: `
-    I'm currently working as a developer at the Precision Brain Health Initiative in the BU Chobanian & Avedisian School of Medicine. Our projects focus on the integration of digital data produced by wearable health tracking devices with cognitive health monitoring, particularly pertaining to the early identification of signs of Alzheimer's. <br/>
+    I'm currently working as a developer at the Precision Brain Health Initiative in the Boston University Chobanian & Avedisian School of Medicine. Our projects focus on the integration of digital data produced by wearable health tracking devices with cognitive health monitoring, particularly pertaining to the early identification of signs of Alzheimer's. <br/>
 
-    Additionally, I'm a recent BU alum who majored in Computer Science with a minor in Japanese. I was the former President of the Boston University Japanese Student Association, and recently studied abroad in Kyoto, Japan at Doshisha University with Columbia University's KCJS Program.<br/>
-
-    I'm most interested in the use of computer science and its applications in scientific research, most prevelantly linguistics. Additionally, I'm planning on pursuing a master's in bioinformatics while I work with the goal of adapting my existing computer science skills to work on research in health and medicine that will directly benefit people's lives.
+    Additionally, I am pursuing my masters in bioinformatics at Boston University part-time with the goal of adapting my existing computational skills to work on research in health and medicine that will directly benefit people's lives. <br/>
+    
+    Previously, I majored in Computer Science with a minor in Japanese, also at Boston University. I was the former President of the Boston University Japanese Student Association, and recently studied abroad in Kyoto, Japan at Doshisha University with Columbia University's KCJS Program.
 
     `,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
