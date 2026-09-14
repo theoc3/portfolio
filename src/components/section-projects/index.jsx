@@ -1,5 +1,6 @@
 import React from 'react';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+import TranslatedTitle from '../translated-title';
 
 const classes = {
   wrapper: 'px-6 md:px-12 py-16 max-w-7xl mx-auto',
@@ -27,7 +28,7 @@ const SectionProjects = ({ projects, images = [] }) => {
 
   return (
     <div id="projects" className={classes.wrapper}>
-      <h2 className={classes.title}>Selected Projects</h2>
+      <TranslatedTitle as="h2" className={classes.title} text="Selected Projects" translation="代表作" />
       <div className={classes.grid}>
         {projects.map((project, index) => {
           const image = getProjectImage(project.image);

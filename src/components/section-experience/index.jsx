@@ -1,4 +1,5 @@
 import React from 'react';
+import TranslatedTitle from '../translated-title';
 
 const classes = {
   wrapper: 'px-6 md:px-12 py-16 max-w-7xl mx-auto',
@@ -18,7 +19,7 @@ const SectionExperience = ({ experience }) => {
 
   return (
     <div id="experience" className={classes.wrapper}>
-      <h2 className={classes.title}>Experience</h2>
+      <TranslatedTitle as="h2" className={classes.title} text="Experience" translation="経験" />
       <div className={classes.list}>
         {experience.map((item) => (
           <div key={item.name} className={classes.item}>
